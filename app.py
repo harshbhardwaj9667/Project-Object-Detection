@@ -5,7 +5,6 @@
 
 # Import libraries
 import streamlit as st
-import cv2
 from ultralytics import YOLO
 from PIL import Image
 import numpy as np
@@ -78,11 +77,7 @@ if uploaded_file is not None:
             detected_image = result.plot()
 
             # Convert BGR to RGB
-            detected_image = cv2.cvtColor(
-                detected_image,
-                cv2.COLOR_BGR2RGB
-            )
-
+            detected_image = detected_image[:, :, ::-1]
         # Display detected image
         st.subheader("Detection Results")
 
