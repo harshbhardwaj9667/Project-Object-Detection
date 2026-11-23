@@ -60,7 +60,7 @@ bash
 git clone https://github.com/harshbhardwaj9667/Project-Object-Detection.git
 cd Project-Object-Detection
 
-# 2. (Optional) Create a virtual environment
+# 2. Create a virtual environment
 python -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
 
@@ -97,7 +97,4 @@ Streamlit
 👤 Author
 https://github.com/harshbhardwaj9667
 LinkedIn: https://www.linkedin.com/in/harsh-bhardwaj-66a4a4218/
-
-
-GitHub: @harshbhardwaj9667
-LinkedIn: [add your LinkedIn profile URL here]
+⭐ If you found this project useful, consider giving it a star!
