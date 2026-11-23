@@ -88,12 +88,12 @@ Click Browse files and upload a JPG or PNG image.
 Click Detect Objects.
 View the annotated image, the total object count, and the per-class breakdown.
 🔮 Future Improvements
-[ ] Real-time detection from webcam / video streams
-[ ] Adjustable confidence threshold slider in the UI
-[ ] Selectable model sizes (YOLOv8s / m / l) for accuracy vs. speed trade-offs
-[ ] Video file upload and processing
-[ ] Downloadable annotated output
-[ ] Custom-trained model on a domain-specific dataset
+* Real-time detection from webcam / video streams
+* Adjustable confidence threshold slider in the UI
+* Selectable model sizes (YOLOv8s / m / l) for accuracy vs. speed trade-offs
+* Video file upload and processing
+* Downloadable annotated output
+* Custom-trained model on a domain-specific dataset
 
 
 📚 What I Learned
